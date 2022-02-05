@@ -32,10 +32,8 @@ w_new= w_new+ β.x.y (where, wnew is the new weight after the iteration, B is th
 ## Logic gates using perceptrons
 * AND, OR, NOT, NAND & NOR gates were implemented using perceptrons.
 * For each of the gates, their respective x1, x2 and bias values were taken. Perceptrons use activation functions for updation of values.
-* The activation function used was as follows: 
-<img width="157" alt="image" src="https://user-images.githubusercontent.com/49033060/152655509-244720c9-f372-4bd6-ba17-6e941e584135.png">
-* The weights and biases are updated using the following equations:
-<img width="221" alt="image" src="https://user-images.githubusercontent.com/49033060/152655535-e5bc4c18-d4d3-4693-97a5-1e3db3d96632.png">
+* The activation function used was as follows: <img width="157" alt="image" src="https://user-images.githubusercontent.com/49033060/152655509-244720c9-f372-4bd6-ba17-6e941e584135.png">
+* The weights and biases are updated using the following equations: <img width="221" alt="image" src="https://user-images.githubusercontent.com/49033060/152655535-e5bc4c18-d4d3-4693-97a5-1e3db3d96632.png">
 
 
 
