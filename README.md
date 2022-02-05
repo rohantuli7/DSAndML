@@ -37,7 +37,19 @@ w_new= w_new+ β.x.y (where, wnew is the new weight after the iteration, B is th
 * The weights and biases are updated using the following equations: 
 <img width="221" alt="image" src="https://user-images.githubusercontent.com/49033060/152655535-e5bc4c18-d4d3-4693-97a5-1e3db3d96632.png">
 
+## Error backpropogation algorithm
+* Error backpropogation algorithm was implemented using delta Learning rule. 
+* This algorithm involves three major steps namely; (i) feedforward of the training input pattern, (ii) Back propogation of the associated error and, (iii) adjustments of the weights. 
+* We created a three layer perceptron consisting of input, hidden and output layers. Each of these layers had two neurons in them. We began training the model by assigning arbitrary values for weights and biases. 
+* For updation of weights, we used delta learning rule. For this experiment, the loop breaking condition is either completion of 100000 iterations or the error being less than 0.000001.
 
+
+## Winner takes it all
+* Winner takes all algorithm was implemented for unsupervised neural networks. This algorithm works well when we do not have prior knowledge of the data. Only the neuron with the highest activation stays active while all other neurons shut down.
+
+## Fuzzy inference system
+* Various concepts of fuzzy logic were implemented. A fuzzy interface system  was developed in python using the skfuzzy library. 
+* The interface allowed us to generate a prediction (tip) for a certain set of input values (in our case, quality and service of a restaurant). The interface was created by applying membership functions to the set of input values generated. Appropriate rules were created which allowed the interface the learn and create suitable outputs.
 
 
 
