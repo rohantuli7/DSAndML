@@ -22,3 +22,29 @@ In simple linear equation, the formula y = mx + c is used extensively to predict
 * Our own dataset was created in which, we applied pruning and join operations after which, we found itemsets which satisfied the minimum support condition (in our case 2). Once we found all the associations, we used them to generate weak and strong rules. 
 * The threshold for these rules was 70% thus, there were 3 strong rules generated and 6 weak rules. 
 * Thus, The Apriori algorithm is used for mining frequent itemsets and devising association rules from a transactional database. The parameters “support” and “confidence” are used. Support refers to items' frequency of occurrence; confidence is a conditional probability. Items in a transaction form an item set.
+
+## Logic gates using Hebb network
+* AND, OR, NOT, NAND & NOR gates were implemented using Hebb network. For each of the gates, their respective x1, x2 and bias values were taken. Hebbian neurons work with constant changes in weights. 
+* This method of weight updation enabled neurons to learn and was named as Hebbian Learning.
+Hebbian networks primarily work on the following equation:
+w_new= w_new+ β.x.y (where, wnew is the new weight after the iteration, B is the bias and, x and y are input values for the respective gates.)
+
+## Logic gates using perceptrons
+* AND, OR, NOT, NAND & NOR gates were implemented using perceptrons.
+* For each of the gates, their respective x1, x2 and bias values were taken. Perceptrons use activation functions for updation of values.
+* The activation function used was as follows: 
+<centre><img width="157" alt="image" src="https://user-images.githubusercontent.com/49033060/152655509-244720c9-f372-4bd6-ba17-6e941e584135.png"><\centre>
+* The weights and biases are updated using the following equations:
+<img width="221" alt="image" src="https://user-images.githubusercontent.com/49033060/152655535-e5bc4c18-d4d3-4693-97a5-1e3db3d96632.png">
+
+
+
+
+
+
+
+
+
+
+
+
